@@ -1,0 +1,67 @@
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 4px;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-sm {
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 4px;
+}
+
+.mx-1 {
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+}
+
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .d-flex .btn,
+    .d-flex h3,
+    .d-flex div {
+        margin-bottom: 10px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+    }
+
+    .modal-body .form-group {
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

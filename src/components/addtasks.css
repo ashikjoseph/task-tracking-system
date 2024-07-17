@@ -1,0 +1,45 @@
+.add-tasks-container {
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.add-tasks-container h3 {
+  text-align: center;
+}
+
+.form-group {
+  margin-top: 15px;
+}
+
+.form-control {
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px; /* 1rem = 16px */
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.btn {
+  font-size: 16px; 
+  padding: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .add-tasks-container {
+      padding: 15px;
+  }
+
+  .form-control {
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .btn {
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
